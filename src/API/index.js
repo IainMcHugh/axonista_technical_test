@@ -7,9 +7,7 @@ const getUserWeatherData = (lat, lon) => {
     )
     .then((data) => {
       console.log(data);
-      // return data.data.main.temp;
       return data.data;
-      // setUserTemp(data.data.main.temp);
     })
     .catch((err) => {
       console.log("Something went wrong:");
@@ -25,10 +23,7 @@ const getInputWeatherData = (inputLocation) => {
     )
     .then((data) => {
       try {
-        // console.log(data.data.main.temp);
         return data.data;
-        // return data.data.main.temp;
-        // props.getWeather(data.data.main.temp);
       } catch (error) {
         console.log(error);
       }

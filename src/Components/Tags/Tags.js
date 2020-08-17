@@ -4,6 +4,8 @@ import "./Tags.scss";
 
 const Tags = (props) => {
   const [hover, setHover] = useState(false);
+
+  // When User closes a tag
   const clickHandler = () => {
     console.log("Handle Click");
     props.close(props.index);

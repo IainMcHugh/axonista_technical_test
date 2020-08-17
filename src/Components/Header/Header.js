@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import logo from "../../images/branding@2x.png";
-// import MenuIcon from "@material-ui/icons/Menu";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
@@ -15,6 +14,7 @@ const Header = (props) => {
 
   const clickHandler = (event) => {
     console.log("Handle Click");
+    // Set Anchor point for pop up item
     setAnchorEl(event.currentTarget);
   };
 

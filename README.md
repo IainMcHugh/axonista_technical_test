@@ -15,6 +15,7 @@ An application that periodically gets Weather information based on the User's cu
  - Unit testing for API calls and temperature conversions
  - Circular Progress bar to show percentage between Sunrise and Sunset
  - API Key secured through use of environment variables
+ - Added responsiveness across varying browser widths
 
 
 

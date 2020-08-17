@@ -14,21 +14,9 @@ const SunTrack = (props) => {
   const [fraction, setFraction] = useState(0);
 
   useEffect(() => {
-    const now = new Date();
-    setCurrTime(now.toUTCString());
-
-    const rise = new Date(0);
-    rise.setUTCSeconds(props.sunrise);
-    setSunrise(rise.toUTCString());
-
-    const set = new Date(0);
-    set.setUTCSeconds(props.sunset);
-    setSunset(set.toUTCString());
 
     let denominator = props.sunset - props.sunrise;
     console.log("Denominator: " + denominator);
-    console.log("Sunset: " +props.sunset);
-    console.log("Now: " + Math.round(Date.now() / 1000));
     let numerator = props.sunset - Math.floor(Date.now() / 1000);
     console.log("Numerator: " + numerator);
     let frac = (1 - numerator / denominator) * 100;
@@ -44,7 +32,6 @@ const SunTrack = (props) => {
         <CircularProgressbar
           value={fraction}
           text={`${fraction}%`}
-          // circleRatio={0.75}
           circleRatio={0.5}
           styles={buildStyles({
             trailColor: "#ffff00",

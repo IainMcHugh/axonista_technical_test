@@ -9,6 +9,7 @@ import SunTrack from "../SunTrack/SunTrack";
 const UserTile = (props) => {
   const [userData, setUserData] = useState();
 
+  // watchPosition success
   const success = (position) => {
     let d = new Date();
     console.log("Getting Users Position at:" + d.toUTCString());
@@ -26,18 +27,20 @@ const UserTile = (props) => {
     }
   };
 
+  // watchPosition error
   const error = (err) => {
     console.warn(`Error: ${err.code}, ${err.message}`);
   };
 
+  // watchPosition options
   const options = {
     enableHighAccuracy: false,
     timeout: 5000,
     maximumAge: 60000,
   };
 
+  // get users location on initial Render
   useEffect(() => {
-    // get users location
     if (navigator.geolocation) {
       navigator.geolocation.watchPosition(success, error, options);
     } else {

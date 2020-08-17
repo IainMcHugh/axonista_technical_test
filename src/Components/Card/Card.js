@@ -6,6 +6,8 @@ import "./Card.scss";
 import "../../weather_icons/css/owfont-regular.css"
 
 const Card = (props) => {
+
+  // return difference in User temperature and this location temperature
   const calcTempDifference = () => {
     if (props.unit) {
       const difference = (props.data.main.temp - props.userTemp).toFixed(0);

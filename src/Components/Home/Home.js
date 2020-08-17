@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Form from "../Form/Form";
 import UserTile from "../UserTile/UserTile";
 import Card from "../Card/Card";
@@ -7,11 +7,12 @@ import Tags from "../Tags/Tags";
 import "./Home.scss";
 
 const Home = (props) => {
+  // Storing temperature at User location & list of active cities
   const [userTemp, setUserTemp] = useState(0);
   const [cities, setCities] = useState([]);
   
+  // Callback from form submission
   const formCallback = (data, isLocal) => {
-    // console.log(data);
     setCities((cities) => [...cities, data]);
     console.log(cities);
     // check if already exists in local storage
@@ -22,6 +23,7 @@ const Home = (props) => {
     }
   };
 
+  // User has closed a tag
   const tagCloseCallback = (cityIndex) => {
     let currCities = [...cities];
     console.log(cityIndex);
@@ -29,10 +31,6 @@ const Home = (props) => {
     setCities(currCities);
     
   }
-
-  useEffect(() => {
-    console.log(cities);
-  }, [cities]);
 
   return (
     <div id="home-wrapper">
