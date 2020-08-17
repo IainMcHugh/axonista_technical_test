@@ -1,0 +1,19 @@
+$medium: 700px;
+
+#home-wrapper {
+    width: 100%;
+    margin-top: 100px;
+
+    @media screen and (min-width: $medium){
+        width: 50%;
+        margin: 100px auto 0 auto;
+    }
+}
+
+#tags-wrapper {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
