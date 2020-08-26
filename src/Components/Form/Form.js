@@ -69,6 +69,7 @@ const Form = (props) => {
           submitForm();
         }}
       >
+        {/* <form onSubmit={submitForm}> pass (e) through */}
         <label htmlFor="city">Enter a City</label>
         <input
           type="text"
