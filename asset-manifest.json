@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/openweatherapi/static/css/main.f04abc68.chunk.css",
+    "main.js": "/openweatherapi/static/js/main.17872df2.chunk.js",
+    "main.js.map": "/openweatherapi/static/js/main.17872df2.chunk.js.map",
+    "runtime-main.js": "/openweatherapi/static/js/runtime-main.948f434d.js",
+    "runtime-main.js.map": "/openweatherapi/static/js/runtime-main.948f434d.js.map",
+    "static/css/2.f524894f.chunk.css": "/openweatherapi/static/css/2.f524894f.chunk.css",
+    "static/js/2.93c5cfb5.chunk.js": "/openweatherapi/static/js/2.93c5cfb5.chunk.js",
+    "static/js/2.93c5cfb5.chunk.js.map": "/openweatherapi/static/js/2.93c5cfb5.chunk.js.map",
+    "index.html": "/openweatherapi/index.html",
+    "precache-manifest.9e1df04e609e0115a7c463c9c5c5305c.js": "/openweatherapi/precache-manifest.9e1df04e609e0115a7c463c9c5c5305c.js",
+    "service-worker.js": "/openweatherapi/service-worker.js",
+    "static/css/2.f524894f.chunk.css.map": "/openweatherapi/static/css/2.f524894f.chunk.css.map",
+    "static/css/main.f04abc68.chunk.css.map": "/openweatherapi/static/css/main.f04abc68.chunk.css.map",
+    "static/js/2.93c5cfb5.chunk.js.LICENSE.txt": "/openweatherapi/static/js/2.93c5cfb5.chunk.js.LICENSE.txt",
+    "static/media/branding@2x.png": "/openweatherapi/static/media/branding@2x.29c7b80a.png",
+    "static/media/owfont-regular.css": "/openweatherapi/static/media/owfont-regular.f3ce0ef1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.948f434d.js",
+    "static/css/2.f524894f.chunk.css",
+    "static/js/2.93c5cfb5.chunk.js",
+    "static/css/main.f04abc68.chunk.css",
+    "static/js/main.17872df2.chunk.js"
+  ]
+}
