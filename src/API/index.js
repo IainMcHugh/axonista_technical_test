@@ -19,7 +19,7 @@ const getInputWeatherData = (inputLocation) => {
   
   return axios
     .get(
-      `http://api.openweathermap.org/data/2.5/weather?q=${inputLocation}&appid=${process.env.REACT_APP_API_KEY}`
+      `https://api.openweathermap.org/data/2.5/weather?q=${inputLocation}&appid=${process.env.REACT_APP_API_KEY}`
     )
     .then((data) => {
       try {
