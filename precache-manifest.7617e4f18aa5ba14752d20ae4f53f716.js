@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a3f60a99ebda9bbd95098141eae48796",
+    "revision": "18772d108b683a48443d9a34281704e2",
     "url": "/axonista_technical_test/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/axonista_technical_test/static/css/2.f524894f.chunk.css"
   },
   {
-    "revision": "0a488479607da3961d7d",
+    "revision": "d17fcebd901fa692217e",
     "url": "/axonista_technical_test/static/css/main.4bebdf07.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/axonista_technical_test/static/js/2.93c5cfb5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0a488479607da3961d7d",
-    "url": "/axonista_technical_test/static/js/main.721d52d1.chunk.js"
+    "revision": "d17fcebd901fa692217e",
+    "url": "/axonista_technical_test/static/js/main.3430cfb4.chunk.js"
   },
   {
     "revision": "e1fa0abadd8517fb42f7",

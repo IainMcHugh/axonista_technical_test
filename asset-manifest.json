@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/axonista_technical_test/static/css/main.4bebdf07.chunk.css",
-    "main.js": "/axonista_technical_test/static/js/main.721d52d1.chunk.js",
-    "main.js.map": "/axonista_technical_test/static/js/main.721d52d1.chunk.js.map",
+    "main.js": "/axonista_technical_test/static/js/main.3430cfb4.chunk.js",
+    "main.js.map": "/axonista_technical_test/static/js/main.3430cfb4.chunk.js.map",
     "runtime-main.js": "/axonista_technical_test/static/js/runtime-main.b2096e1a.js",
     "runtime-main.js.map": "/axonista_technical_test/static/js/runtime-main.b2096e1a.js.map",
     "static/css/2.f524894f.chunk.css": "/axonista_technical_test/static/css/2.f524894f.chunk.css",
     "static/js/2.93c5cfb5.chunk.js": "/axonista_technical_test/static/js/2.93c5cfb5.chunk.js",
     "static/js/2.93c5cfb5.chunk.js.map": "/axonista_technical_test/static/js/2.93c5cfb5.chunk.js.map",
     "index.html": "/axonista_technical_test/index.html",
-    "precache-manifest.6165de50b08534ef74440e07ad3a6c70.js": "/axonista_technical_test/precache-manifest.6165de50b08534ef74440e07ad3a6c70.js",
+    "precache-manifest.7617e4f18aa5ba14752d20ae4f53f716.js": "/axonista_technical_test/precache-manifest.7617e4f18aa5ba14752d20ae4f53f716.js",
     "service-worker.js": "/axonista_technical_test/service-worker.js",
     "static/css/2.f524894f.chunk.css.map": "/axonista_technical_test/static/css/2.f524894f.chunk.css.map",
     "static/css/main.4bebdf07.chunk.css.map": "/axonista_technical_test/static/css/main.4bebdf07.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.f524894f.chunk.css",
     "static/js/2.93c5cfb5.chunk.js",
     "static/css/main.4bebdf07.chunk.css",
-    "static/js/main.721d52d1.chunk.js"
+    "static/js/main.3430cfb4.chunk.js"
   ]
 }
