@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import logo from "../../images/branding@2x.png";
+import newLogo from "../../images/newLogo2.png";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
@@ -32,7 +33,7 @@ const Header = (props) => {
   return (
     <div id="nav-wrapper">
       <div id="nav-wrapper_img">
-        <img src={logo} alt="Ediflo" />
+        <img src={newLogo} alt="Ediflo" />
       </div>
       <div id="nav-wrapper_menu">
         <Button aria-controls="fade-menu" onClick={clickHandler} >
