@@ -10,13 +10,13 @@ const Home = (props) => {
   // Storing temperature at User location & list of active cities
   const [userTemp, setUserTemp] = useState(0);
   const [cities, setCities] = useState([]);
-  
+
   // Callback from form submission
   const formCallback = (data, isLocal) => {
     setCities((cities) => [...cities, data]);
     console.log(cities);
     // check if already exists in local storage
-    if(!isLocal){
+    if (!isLocal) {
       let cityArr = cities;
       cityArr.push(data);
       localStorage.setItem("cities", JSON.stringify(cityArr));
@@ -29,20 +29,25 @@ const Home = (props) => {
     console.log(cityIndex);
     currCities.splice(cityIndex, 1);
     setCities(currCities);
-    
+
   }
+
+  // const tagCloseCallback = (cityIndex) => {
+  //   console.log(cityIndex);
+  //   setCities((cities) => cities.filter((city, index) => index != cityIndex));
+  // };
 
   return (
     <div id="home-wrapper">
-      <Form getWeather={formCallback} activeCities={cities}/>
+      <Form getWeather={formCallback} activeCities={cities} />
       <div id="tags-wrapper">
-      {cities.map((city, i) => (
-        <Tags key={i} index={i} data={city.name} close={tagCloseCallback}/>
-      ))}
+        {cities.map((city, i) => (
+          <Tags key={i} index={i} data={city.name} close={tagCloseCallback} />
+        ))}
       </div>
-      <UserTile unit={props.unit} temp={(temp)=>setUserTemp(temp)}/>
+      <UserTile unit={props.unit} temp={(temp) => setUserTemp(temp)} />
       {cities.map((city, i) => (
-        <Card key={i} unit={props.unit} data={city} userTemp={userTemp}/>
+        <Card key={i} unit={props.unit} data={city} userTemp={userTemp} />
       ))}
     </div>
   );
