@@ -1,27 +1,28 @@
 {
   "files": {
     "main.css": "/axonista_technical_test/static/css/main.4bebdf07.chunk.css",
-    "main.js": "/axonista_technical_test/static/js/main.3430cfb4.chunk.js",
-    "main.js.map": "/axonista_technical_test/static/js/main.3430cfb4.chunk.js.map",
+    "main.js": "/axonista_technical_test/static/js/main.9b8a700e.chunk.js",
+    "main.js.map": "/axonista_technical_test/static/js/main.9b8a700e.chunk.js.map",
     "runtime-main.js": "/axonista_technical_test/static/js/runtime-main.b2096e1a.js",
     "runtime-main.js.map": "/axonista_technical_test/static/js/runtime-main.b2096e1a.js.map",
     "static/css/2.f524894f.chunk.css": "/axonista_technical_test/static/css/2.f524894f.chunk.css",
-    "static/js/2.93c5cfb5.chunk.js": "/axonista_technical_test/static/js/2.93c5cfb5.chunk.js",
-    "static/js/2.93c5cfb5.chunk.js.map": "/axonista_technical_test/static/js/2.93c5cfb5.chunk.js.map",
+    "static/js/2.07cd97f1.chunk.js": "/axonista_technical_test/static/js/2.07cd97f1.chunk.js",
+    "static/js/2.07cd97f1.chunk.js.map": "/axonista_technical_test/static/js/2.07cd97f1.chunk.js.map",
     "index.html": "/axonista_technical_test/index.html",
-    "precache-manifest.7617e4f18aa5ba14752d20ae4f53f716.js": "/axonista_technical_test/precache-manifest.7617e4f18aa5ba14752d20ae4f53f716.js",
+    "precache-manifest.eb4c5578ffc3b1484a63c1fa75642114.js": "/axonista_technical_test/precache-manifest.eb4c5578ffc3b1484a63c1fa75642114.js",
     "service-worker.js": "/axonista_technical_test/service-worker.js",
     "static/css/2.f524894f.chunk.css.map": "/axonista_technical_test/static/css/2.f524894f.chunk.css.map",
     "static/css/main.4bebdf07.chunk.css.map": "/axonista_technical_test/static/css/main.4bebdf07.chunk.css.map",
-    "static/js/2.93c5cfb5.chunk.js.LICENSE.txt": "/axonista_technical_test/static/js/2.93c5cfb5.chunk.js.LICENSE.txt",
+    "static/js/2.07cd97f1.chunk.js.LICENSE.txt": "/axonista_technical_test/static/js/2.07cd97f1.chunk.js.LICENSE.txt",
     "static/media/branding@2x.png": "/axonista_technical_test/static/media/branding@2x.29c7b80a.png",
+    "static/media/newLogo2.png": "/axonista_technical_test/static/media/newLogo2.db3e16da.png",
     "static/media/owfont-regular.css": "/axonista_technical_test/static/media/owfont-regular.f3ce0ef1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b2096e1a.js",
     "static/css/2.f524894f.chunk.css",
-    "static/js/2.93c5cfb5.chunk.js",
+    "static/js/2.07cd97f1.chunk.js",
     "static/css/main.4bebdf07.chunk.css",
-    "static/js/main.3430cfb4.chunk.js"
+    "static/js/main.9b8a700e.chunk.js"
   ]
 }

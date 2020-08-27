@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18772d108b683a48443d9a34281704e2",
+    "revision": "a4f39c865d3c9c4b7baa57288239db4d",
     "url": "/axonista_technical_test/index.html"
   },
   {
-    "revision": "0e54d3dfb58caa3877d5",
+    "revision": "6194c02fe78ecdb7f770",
     "url": "/axonista_technical_test/static/css/2.f524894f.chunk.css"
   },
   {
-    "revision": "d17fcebd901fa692217e",
+    "revision": "8dfea50b293000ce6306",
     "url": "/axonista_technical_test/static/css/main.4bebdf07.chunk.css"
   },
   {
-    "revision": "0e54d3dfb58caa3877d5",
-    "url": "/axonista_technical_test/static/js/2.93c5cfb5.chunk.js"
+    "revision": "6194c02fe78ecdb7f770",
+    "url": "/axonista_technical_test/static/js/2.07cd97f1.chunk.js"
   },
   {
     "revision": "b846b5b2fcb30d4eb0a413c317540089",
-    "url": "/axonista_technical_test/static/js/2.93c5cfb5.chunk.js.LICENSE.txt"
+    "url": "/axonista_technical_test/static/js/2.07cd97f1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d17fcebd901fa692217e",
-    "url": "/axonista_technical_test/static/js/main.3430cfb4.chunk.js"
+    "revision": "8dfea50b293000ce6306",
+    "url": "/axonista_technical_test/static/js/main.9b8a700e.chunk.js"
   },
   {
     "revision": "e1fa0abadd8517fb42f7",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "29c7b80a1749c556b8f7327cedaa206c",
     "url": "/axonista_technical_test/static/media/branding@2x.29c7b80a.png"
+  },
+  {
+    "revision": "db3e16da2a33d39efb58ce23c71aea49",
+    "url": "/axonista_technical_test/static/media/newLogo2.db3e16da.png"
   },
   {
     "revision": "3d73387c2a1e21f207a8357724f536ba",

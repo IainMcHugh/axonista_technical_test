@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/axonista_technical_test/precache-manifest.7617e4f18aa5ba14752d20ae4f53f716.js"
+  "/axonista_technical_test/precache-manifest.eb4c5578ffc3b1484a63c1fa75642114.js"
 );
 
 self.addEventListener('message', (event) => {
